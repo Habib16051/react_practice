@@ -14,8 +14,8 @@ function InputExample() {
 
   return (
     <div>
-      <input type="text" value={value} onChange={handleChange} />
-      <button onClick={handleClick}>Display Input Value</button>
+      <input className="input_1" type="text" value={value} onChange={handleChange} />
+      <button className="btn" onClick={handleClick}>Click</button>
       <p>Input Value: {displayValue}</p>
     </div>
   );

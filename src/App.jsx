@@ -10,6 +10,8 @@ import Button from "./Button/Button";
 import Student from "./Student/Student";
 import Greeting from "./Greeting";
 import List from "./List";
+import FormExample from "./Prevent";
+import State from "./State/State";
 
 function App() {
   const fruits = [
@@ -45,6 +47,11 @@ function App() {
       <List fruit={fruits} vegetable={vegetables} />
       <hr />
       <OnChange />
+      <hr />
+      <FormExample/>
+      <hr />
+      <State/>
+      
 
       <hr />
       <Footer />

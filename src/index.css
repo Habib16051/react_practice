@@ -33,3 +33,9 @@
     margin: 0;
     color: #8ca379;
 }
+.inpur_1{
+    border: solid 1px #38573f;
+    border-radius: 10px;
+    color: #0d7a48;
+    box-shadow: #8ca379;
+}
